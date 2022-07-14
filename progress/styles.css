@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: blueviolet;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  width: 50rem;
+  color: #ccc;
+  margin: 0;
+  text-transform: uppercase;
+  background-color: #2b123b;
+}
+
+p {
+  width: 50rem;
+  color: #ccc;
+  margin: 0;
+  text-transform: uppercase;
+  background-color: #2b123b;
+}
+
+button {
+  background-color: #2b123b;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: #c1c1c1;
+  color: #2b123b;
+}/*# sourceMappingURL=styles.css.map */

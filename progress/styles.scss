@@ -1,0 +1,36 @@
+$text-color: #c1c1c1;
+@mixin formato-texto {
+    width: 50rem;
+    color: #ccc;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #2b123b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    background-color: blueviolet;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+    @include formato-texto()
+}
+
+p {
+    @include formato-texto()    
+}
+button {
+    background-color: #2b123b;
+    color: aliceblue;
+}
+button:hover {
+    background-color: #c1c1c1;
+    color: #2b123b;
+}
